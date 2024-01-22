@@ -9,7 +9,6 @@ A command interpreter to administrate/manage the AirBnB storage and objects, wri
 #### How it works?
 
 After cloning the repository in your host machine run the console.py script
-
 ```sh
 $ python3 AirBnB_clone/console.py
 ```
@@ -17,7 +16,6 @@ $ python3 AirBnB_clone/console.py
 An interactive prompt will appear with the label `(hbnb)`, now you can start doing *CRUD* operations by commanding `(hbnb)`.
 
 to see all the available commands type `help`:
-
 ```hbnb
 (hbnb) help
 
@@ -30,7 +28,6 @@ EOF  all  create  destroy  help  quit  show  update
 
 
 to see how to use a specific command type `help <command>`:
-
 ```hbnb
 (hbnb) help create
 usage: create <class>
@@ -64,3 +61,11 @@ now we have an ID for the new user, we can add other properties using `update`:
 ```
 
 and so on we can create other objects, read their properties, update some properties, and delete objects, and that what we refered to with the CRUD operations above.
+
+
+
+## Web Static
+
+A simple static web page that illustrate the interface of the project, it's not yet linked with the back end, it will be soon, stay tuned.
+you can visit the website [here.](https://yahia-soliman.github.io/AirBnB_clone/)
+<img src="./web_static/images/screenshot.png" width="100%" align="center" >

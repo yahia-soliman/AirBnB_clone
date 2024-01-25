@@ -1,6 +1,6 @@
 # AirBnB
 
-A fullstack web application using Python, HTML, CSS, JavaScript.
+A fullstack web application for property rental around the globe.
 
 ## The Console
 

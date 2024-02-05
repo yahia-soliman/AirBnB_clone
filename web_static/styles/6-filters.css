@@ -11,8 +11,8 @@
 	border-right: 1px solid #DDDDDD;
 }
 .filters > div {
-	width: 25%; height: 100%;
-	padding: 15px 15px 15px 40px;
+	min-width: 25%; height: 100%;
+	padding: 15px 35px;
 	position: relative;
 }
 .popover {
@@ -38,6 +38,7 @@
 	font-size: 14px;
 }
 .filters button {
+	font-weight: 600;
 	width: 20%; height: 48px;
 	background-color: #FF5A5F;
 	font-size: 18px; color: #FFFFFF;
@@ -47,4 +48,10 @@
 .filters button:hover {
 	opacity: 0.9;
 	cursor: pointer;
+}
+
+@media all and (max-width: 700px) {
+	.filters .amenities {
+		display: none;
+	}
 }
